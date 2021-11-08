@@ -1,0 +1,70 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class AssignmentB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int itemnum;
+		int firstitem;
+		int secitem;
+		int thirditem;
+		int quantityfirst;
+		int quantitysec;
+		int quantitythird;
+		double discount1 = 0.2;
+		double discount2 = 0.1;
+		double price = 480.00;
+		double discount = 96.00;
+		double paid = 384.00;
+		double newprice;
+		char more100;
+		char less100;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the number of items: " );
+		itemnum = scan.nextInt();
+		System.out.println("Enter the number of items: " + itemnum);
+		System.out.println("Enter price of first item: " );
+		firstitem = scan.nextInt();
+		System.out.println("Enter price of first item: " + firstitem);
+		System.out.println("Enter the quantity of first item: ");
+		quantityfirst = scan.nextInt();
+		System.out.println("Enter the quantity of first item: " + quantityfirst);
+		
+		System.out.println("Enter the price of second items: ");
+		secitem = scan.nextInt();
+		System.out.println("Enter the price of second items: " + secitem);
+		System.out.println("Enter the quantity of second item: ");
+		quantitysec = scan.nextInt();
+		System.out.println("Enter the quantity of second item: " + quantitysec);
+		
+		System.out.println("Enter the price of third item: ");
+		thirditem = scan.nextInt();
+		System.out.println("Enter the price of third item: " + thirditem);
+		System.out.println("Enter the quantity of third item: ");
+		quantitythird = scan.nextInt();
+		System.out.println("Enter the quantity of third item: " + quantitythird);
+		
+		price=(firstitem * quantityfirst) + (secitem * quantitysec) + (thirditem * quantitythird);
+		System.out.println("Total price :" + price);
+
+
+		if (price>100);
+		{
+			newprice = price*(20/100);
+		}
+		{
+		System.out.print("Price to be paid : " + newprice);
+		if (price<100);
+		newprice = price*(10/100);
+		}
+		
+		newprice = price-discount;
+		System.out.print("Price to be paid : " + newprice);
+
+		System.out.println("Discount received : " + discount);
+
+	}
