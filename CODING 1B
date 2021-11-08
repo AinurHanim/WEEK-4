@@ -15,9 +15,9 @@ public class AssignmentB {
 		int quantitythird;
 		double discount1 = 0.2;
 		double discount2 = 0.1;
-		double price = 480.00;
+		double price;
 		double discount = 96.00;
-		double paid = 384.00;
+		double paid;
 		double newprice;
 
 		Scanner scan = new Scanner(System.in);
@@ -49,21 +49,23 @@ public class AssignmentB {
 		price=(firstitem * quantityfirst) + (secitem * quantitysec) + (thirditem * quantitythird);
 		System.out.println("Total price :" + price);
 
-
 		if (price>100);
 		{
-			newprice = price*(20/100);
-		}
-		{
-		System.out.print("Price to be paid : " + newprice);
-		if (price<100);
-		newprice = price*(10/100);
-		}
-		
-		newprice = price-discount;
-		System.out.print("Price to be paid : " + newprice);
-
+		discount = price*(20/100);
 		System.out.println("Discount received : " + discount);
+		newprice = price-discount;
+		System.out.println("Price to be paid : " + newprice);
+		}
+		if (price<100);
+		{
+		discount = price*(10/100);
+		System.out.println("Discount received : " + discount);
+		newprice = price-discount;
+		System.out.println("Price to be paid : " + newprice);
+		}
+
+
+
 
 	}
 
