@@ -19,9 +19,7 @@ public class AssignmentB {
 		double discount = 96.00;
 		double paid = 384.00;
 		double newprice;
-		char more100;
-		char less100;
-		
+
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter the number of items: " );
@@ -68,3 +66,5 @@ public class AssignmentB {
 		System.out.println("Discount received : " + discount);
 
 	}
+
+}
