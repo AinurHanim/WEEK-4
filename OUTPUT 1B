@@ -1,0 +1,23 @@
+Enter the number of items: 
+3
+Enter the number of items: 3
+Enter price of first item: 
+150
+Enter price of first item: 150
+Enter the quantity of first item: 
+2
+Enter the quantity of first item: 2
+Enter the price of second items: 
+50
+Enter the price of second items: 50
+Enter the quantity of second item: 
+3
+Enter the quantity of second item: 3
+Enter the price of third item: 
+30
+Enter the price of third item: 30
+Enter the quantity of third item: 
+1
+Enter the quantity of third item: 1
+Total price :480.0
+Price to be paid : 0.0Price to be paid : 384.0Discount received : 96.0
